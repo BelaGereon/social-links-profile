@@ -5,6 +5,8 @@
   --color-grey: hsl(0, 0%, 20%);
   --color-dark-grey: hsl(0, 0%, 12%);
   --color-off-black: hsl(0, 0%, 8%);
+
+  --card-padding: 3ch;
 }
 
 body {
@@ -13,8 +15,54 @@ body {
   padding: 0;
 
   font-family: "Inter";
+  color: var(--color-white);
 }
 
 p {
   font-size: 14px;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: var(--card-padding) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background: var(--color-grey);
+  border-radius: clamp(0.5rem, 1%, 1rem);
+}
+
+.card-content {
+  width: calc(100% - var(--card-padding) * 2);
+  height: calc(100% + var(--card-padding) * 2);
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h4 {
+  line-height: 0;
+  color: var(--color-primary-green);
+}
+
+img {
+  border-radius: 50%;
+  width: 35%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
 }
