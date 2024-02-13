@@ -6,3 +6,9 @@
   --color-dark-grey: hsl(0, 0%, 12%);
   --color-off-black: hsl(0, 0%, 8%);
 }
+
+body {
+  background: var(--color-dark-grey);
+  margin: 0;
+  padding: 0;
+}
