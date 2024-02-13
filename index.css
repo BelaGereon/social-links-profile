@@ -11,4 +11,10 @@ body {
   background: var(--color-dark-grey);
   margin: 0;
   padding: 0;
+
+  font-family: "Inter";
+}
+
+p {
+  font-size: 14px;
 }
