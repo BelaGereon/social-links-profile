@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Bela Géréon | Social links profile</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <div class="hero">
+            <div class="hero-wrapper">
+              <img src="assets/images/avatar-bela-gereon.jpg" alt="A round picture of Bela Géréon."/>
+              <div class="headlines-container">
+                <h2>Bela Géréon</h2>
+                <h4>Hamburg, Germany</h4>
+              </div>
+              <div class="description">
+                <p>"Fullstack-Developer and Clean-Code-Enthusiast."</p>
+              </div>
+          </div>
+        </div>
+        <div class="socials-container">
+          <ul>
+            <li>
+              <button type="button" 
+                      onclick="window.open('https://github.com/BelaGereon', '_blank')">GitHub</button>
+            </li>
+            <li>
+              <button type="button" 
+                      onclick="window.open('https://www.xing.com/profile/Bela_Gereon/web_profiles', '_blank')">Xing</button>
+            </li>
+            <li>
+              <button type="button" 
+                      onclick="window.open('https://www.frontendmentor.io/profile/BelaGereon', '_blank')">Frontend Mentor</button>
+            </li>
+            <li>
+              <button type="button" 
+                      onclick="window.open('https://codepen.io/BelaGereon', '_blank')">CodePen</button>
+            </li>
+            <li>
+              <button type="button" 
+                      onclick="window.open('https://www.instagram.com/belagereon/', '_blank')">Instagram</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
