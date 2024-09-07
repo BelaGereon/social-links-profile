@@ -14,37 +14,40 @@
 
     <link rel="stylesheet" href="./general stylings/cssReset.css" />
     <link rel="stylesheet" href="./general stylings/fontStyles.css" />
+    <link rel="stylesheet" href="./index.css" />
 
     <title>Frontend Mentor | Social links profile</title>
   </head>
   <body>
-    <main class="social-links-card">
-      <div class="card-content">
-        <div class="card-content__avatar">
-          <img
-            alt="A round profile picture of Jessica Randall."
-            src="./assets/images/avatar-jessica.jpeg"
-          />
-        </div>
-        <div class="card-content__header">
-          <div class="heading">
-            <h1 class="font-large">Jessica Randall</h1>
+    <div class="social-links-card__wrapper">
+      <main class="social-links-card center">
+        <div class="card-content">
+          <div class="card-content__avatar">
+            <img
+              alt="A round profile picture of Jessica Randall."
+              src="./assets/images/avatar-jessica.jpeg"
+            />
           </div>
-          <div class="tagline">
-            <p class="font-medium">London, United Kingdom</p>
+          <div class="card-content__header">
+            <div class="heading">
+              <h1 class="font-large">Jessica Randall</h1>
+            </div>
+            <div class="tagline">
+              <p class="font-medium">London, United Kingdom</p>
+            </div>
           </div>
+          <div class="card-content__description">
+            <p class="font-small">"Front-end developer and avid reader."</p>
+          </div>
+          <menu class="card-content__links-list font-large">
+            <li><a href="http://">GitHub</a></li>
+            <li><a href="http://">Frontend Mentor</a></li>
+            <li><a href="http://">LinkedIn</a></li>
+            <li><a href="http://">Twitter</a></li>
+            <li><a href="http://">Instagram</a></li>
+          </menu>
         </div>
-        <div class="card-content__description">
-          <p class="font-small">"Front-end developer and avid reader."</p>
-        </div>
-        <menu class="card-content__links-list font-large">
-          <li><a href="http://">GitHub</a></li>
-          <li><a href="http://">Frontend Mentor</a></li>
-          <li><a href="http://">LinkedIn</a></li>
-          <li><a href="http://">Twitter</a></li>
-          <li><a href="http://">Instagram</a></li>
-        </menu>
-      </div>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
