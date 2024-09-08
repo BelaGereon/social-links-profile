@@ -25,4 +25,37 @@ body {
 
 .social-links-card {
   background-color: var(--grey_medium);
+  border-radius: 15px;
+  padding: 1rem;
+  width: 300px;
+  color: var(--white);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-content__avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 75px;
+  width: 75px;
+}
+
+.card-content__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  .heading {
+    font-size: small;
+  }
+
+  .tagline {
+    color: var(--green);
+  }
 }
