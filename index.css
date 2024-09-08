@@ -79,8 +79,14 @@ body {
     border-radius: 7px;
   }
 
+  li:hover {
+    background-color: var(--green);
+    color: var(--grey_dark);
+    cursor: pointer;
+  }
+
   a {
-    color: var(--white);
+    color: inherit;
     text-decoration: none;
   }
 }
