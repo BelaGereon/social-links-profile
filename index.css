@@ -41,8 +41,9 @@ body {
 .card-content__avatar {
   border-radius: 50%;
   overflow: hidden;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
+  margin: 0.5rem;
 }
 
 .card-content__header {
@@ -57,5 +58,29 @@ body {
 
   .tagline {
     color: var(--green);
+  }
+}
+
+.card-content__links-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+    background: var(--grey_light);
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    border-radius: 7px;
+  }
+
+  a {
+    color: var(--white);
+    text-decoration: none;
   }
 }
